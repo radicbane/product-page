@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.button{
+  background-color: #b2de00b4;
+  font-size: 12px;
+  padding: 12px 28px;
+  border-radius: 12px;
+  border: 2px solid #45890259;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+h1{
+  color: #b1de00;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+
+}
+
+h2{
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  margin-top: 5px;
+}
+body{
+  background-color: white;
+}
+
+.podnaslov{
+  text-align: center;
+  margin: 50px 0px 30px 0px;
+}
+
+.container{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 50px 0px 100px 0px;
+  
+}
+
+p{
+  font-family: 'Architects Daughter', cursive;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a:link{
+  text-decoration: none;
+  color: #7d9c01ec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: black;
+  height: 30px;
+  padding: 10px;
+}
+
+.footer-text{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
